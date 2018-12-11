@@ -1,24 +1,15 @@
-# README
+# OneBitExchange
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+#### Rodando o projeto
+__________
 
-Things you may want to cover:
+```bash
+docker-compose up
+```
 
-* Ruby version
+#### Criando banco de dados e rodando migrates
+__________
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```bash
+docker-compose run --rm app bundle exec rails db:create db:migrate
+```
