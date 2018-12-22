@@ -13,3 +13,5 @@ __________
 ```bash
 docker-compose run --rm app bundle exec rails db:create db:migrate
 ```
+
+### teste
